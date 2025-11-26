@@ -1,0 +1,9 @@
+var vetor = [1, 1, 2, 2, 5, 5, 90, 153, 107, 1659, 1659]
+var verificados = []
+
+para cada numero em vetor:
+    se !(verificados.inclui(numero)):
+        verificados.adicionar(numero)
+
+imprima('Vetor original: ${vetor}')
+imprima('Vetor sem duplicados: ${verificados}')
